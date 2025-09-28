@@ -1,6 +1,6 @@
 export default function Section01() {
   return (
-    <section>
+    <section id="how-it-works">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-28 md:pb-20">
           {/* Items */}

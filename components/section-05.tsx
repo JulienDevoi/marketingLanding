@@ -18,9 +18,9 @@ export default function Section05() {
             <div className="relative max-w-xl mx-auto md:max-w-none text-center md:text-left">
               {/* Section header */}
               <div className="md:max-w-3xl mb-12 md:mb-20" data-aos="fade-up">
-                <h2 className="h2 text-white mb-4">Get started in minutes and connect all your accounts in one place</h2>
+                <h2 className="h2 text-white mb-4">Your first international payment is just a few minutes away</h2>
                 <p className="text-lg text-blue-200 mb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Make payments in over 50 fiat and stablecoins. Fully transparent rates, no surprises.
                 </p>
               </div>
 
@@ -48,9 +48,9 @@ export default function Section05() {
                   <div className="mb-3">
                     <div className="flex items-center justify-center font-bold text-teal-600 bg-teal-200 h-11 w-11 rounded-full">1</div>
                   </div>
-                  <h4 className="text-white text-xl font-bold mb-1">Download the app</h4>
+                  <h4 className="text-white text-xl font-bold mb-1">Setup your payment(s)</h4>
                   <p className="text-blue-200">
-                    Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.
+                  Create your payment batch or individual payments in one click.
                   </p>
                 </div>
 
@@ -59,9 +59,9 @@ export default function Section05() {
                   <div className="mb-3">
                     <div className="flex items-center justify-center font-bold text-teal-600 bg-teal-200 h-11 w-11 rounded-full">2</div>
                   </div>
-                  <h4 className="text-white text-xl font-bold mb-1">Request your card</h4>
+                  <h4 className="text-white text-xl font-bold mb-1">Track payment status live</h4>
                   <p className="text-blue-200">
-                    Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.
+                  Follow in real-time the status of your payment(s).
                   </p>
                 </div>
 
@@ -70,9 +70,9 @@ export default function Section05() {
                   <div className="mb-3">
                     <div className="flex items-center justify-center font-bold text-teal-600 bg-teal-200 h-11 w-11 rounded-full">3</div>
                   </div>
-                  <h4 className="text-white text-xl font-bold mb-1">Connect all your account</h4>
+                  <h4 className="text-white text-xl font-bold mb-1">Beneficiaries receive funds</h4>
                   <p className="text-blue-200">
-                    Create cards that work exactly as you configured them. Make real-time decisions on charges and spendings.
+                    It takes a few hours for the funds to be credited to the beneficiary's account.
                   </p>
                 </div>
               </div>

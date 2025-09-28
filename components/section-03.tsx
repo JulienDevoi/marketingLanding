@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import QuoteAuthor from '@/public/images/quote-author-02.jpg'
+import QuoteAuthor from '@/public/images/pablo.jpeg'
 import Features from '@/public/images/features-03.png'
 
 export default function Section03() {
@@ -20,18 +20,48 @@ export default function Section03() {
               <div className="w-[512px] max-w-full shrink-0 md:order-1">
                 {/* Copy */}
                 <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-3]" data-aos-delay="100">
-                  Spend your money everwhere, pay anyone effortlessy
+                  Powerful cross-border payments built for finance teams
                 </h2>
-                <p className="text-lg text-slate-500 mb-8" data-aos="fade-up" data-aos-anchor="[data-aos-id-3]" data-aos-delay="200">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim
-                  veniam, quis nostrud exercitation.
-                </p>
+                <ul className="text-lg text-slate-400 mb-8 space-y-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-2]" data-aos-delay="200">
+                  <li className="flex items-center">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mr-3">
+                      <svg className="w-3 h-3 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span>Send and receive payments in 50+ fiat and digital currencies</span>
+                  </li>
+                  <li className="flex items-center">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mr-3">
+                      <svg className="w-3 h-3 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span>Real-time transparent FX conversions with no hidden fees</span>
+                  </li>
+                  <li className="flex items-center">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mr-3">
+                      <svg className="w-3 h-3 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span>Pay in stablecoins, beneficiaries receive in local currency</span>
+                  </li>
+                  <li className="flex items-center">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mr-3">
+                      <svg className="w-3 h-3 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <span>Built-in KYC/AML compliance supporting global regulations</span>
+                  </li>
+                </ul>
 
                 {/* Button */}
                 <div className="max-w-xs mx-auto sm:max-w-none mb-8" data-aos="fade-up" data-aos-anchor="[data-aos-id-3]" data-aos-delay="300">
                   <div>
-                    <a className="btn-sm inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 group shadow-xs" href="apply.html">
-                      Get your card
+                    <a className="btn-sm inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 group shadow-xs" href="/apply">
+                      Join the waitlist
                       <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">
                         <svg className="fill-current" width="12" height="10" xmlns="http://www.w3.org/2000/svg">
                           <path d="M1 6.002h7.586L6.293 8.295a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.416l-4-4a1 1 0 0 0-1.414 1.416l2.293 2.293H1a1 1 0 1 0 0 2Z" />
@@ -48,12 +78,16 @@ export default function Section03() {
                     src={QuoteAuthor}
                     width={32}
                     height={32}
-                    alt="Quote author 02"
+                    alt="Juan Pablo Andersson"
                   />
                   <div>
-                    <blockquote className="text-slate-500 m-0">
-                      “ We know the card market very well and this product provides the speed, flexible account model and API-first approach that no one else can. ”
+                    <blockquote className="text-slate-500 m-0 mb-3">
+                      " Request revolutionized our financial operations by simplifying cross-currency transactions, ensuring transparent and auditable records through a paper trail creation. "
                     </blockquote>
+                    <div className="text-sm">
+                      <div className="font-medium text-slate-700">Juan Pablo Andersson</div>
+                      <div className="text-slate-500">Finance Operations @ The Sandbox</div>
+                    </div>
                   </div>
                 </div>
               </div>

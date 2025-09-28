@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Illustration from '@/public/images/hero-illustration.svg'
-import HeroImage from '@/public/images/hero-image.png'
+import HeroImage from '@/public/images/illu.svg'
 
 export default function Hero() {
   return (
@@ -34,7 +34,7 @@ export default function Hero() {
               </h1>
               <p className="text-lg text-blue-200 mb-8" data-aos="fade-up" data-aos-delay="200">
                 Send funds internationally with confidence.
-                <br className="hidden md:block" /> Avoid costly fees, long delays, and compliance headache
+                <br className="hidden md:block" /> Avoid costly fees, long delays, and compliance headache.
               </p>
 
               {/* Buttons */}
@@ -45,7 +45,7 @@ export default function Hero() {
               >
                 <div>
                   <Link className="btn-sm w-full inline-flex items-center text-slate-100 bg-slate-800 hover:bg-slate-900 group shadow-xs" href="/apply">
-                    Book a demo
+                    Join the waitlist
                     <span className="tracking-normal text-sky-400 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">
                       <svg className="fill-current" width="12" height="10" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 6.002h7.586L6.293 8.295a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.416l-4-4a1 1 0 0 0-1.414 1.416l2.293 2.293H1a1 1 0 1 0 0 2Z" />
@@ -56,9 +56,9 @@ export default function Hero() {
                 <div>
                   <Link
                     className="btn-sm w-full inline-flex items-center text-white bg-linear-to-tr from-blue-400 hover:bg-blue-500 shadow-xs relative before:absolute before:inset-0 before:bg-blue-400/60 before:-z-10 before:rounded-full"
-                    href="/support/welcome/installation"
+                    href="#how-it-works"
                   >
-                    Get started
+                    How it works?
                   </Link>
                 </div>
               </div>
@@ -74,7 +74,7 @@ export default function Hero() {
                   alt="Hero illustration"
                   aria-hidden="true"
                 />
-                <Image src={HeroImage} className="md:max-w-none" width="548" height="545" alt="Credit card" data-aos="fade-up" />
+                <Image src={HeroImage} className="md:max-w-none" width="440" height="400" alt="Credit card" data-aos="fade-up" />
               </div>
             </div>
           </div>

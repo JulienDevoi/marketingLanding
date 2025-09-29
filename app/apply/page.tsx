@@ -206,9 +206,10 @@ export default function Apply() {
                     <div className="w-full max-w-[480px] mx-auto lg:w-[480px] lg:max-w-none lg:mx-0 xl:w-[512px] bg-white p-6 shadow-2xl">
                       {/* Form */}
                       <form ref={formRef} onSubmit={handleSubmit}>
+                        <h3 className="text-2xl font-bold text-slate-800 mb-6 text-left">Join the waiting list now</h3>
                         {isSubmitted && (
                           <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
-                            Thank you! Your application has been submitted successfully.
+                            Thank you! You've been successfully added to our waiting list.
                           </div>
                         )}
                         <div className="space-y-4">

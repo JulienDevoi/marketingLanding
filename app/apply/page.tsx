@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 import { useState, useRef } from 'react'
 import Illustration from '@/public/images/hero-illustration.svg'
 import LogoHT from '@/public/images/ht.svg'
@@ -72,6 +73,10 @@ export default function Apply() {
   }
   return (
     <>
+      <Head>
+        <title>Simplifying global payments for modern businesses</title>
+        <meta name="description" content="Join the waiting list for our global payment solution" />
+      </Head>
       <header className="absolute w-full z-30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex items-center justify-between h-16 md:h-20">

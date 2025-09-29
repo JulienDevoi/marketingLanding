@@ -10,7 +10,7 @@ export default function Cta() {
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
               <p className="text-xl text-blue-500 font-[550] mb-3">Ready to simplify your cross-border payments?</p>
-              <h2 className="h2 text-slate-100">Join 150+ leading finance teams saving time and money</h2>
+              <h2 className="h2 text-slate-100">Join 250+ leading finance teams saving time and money</h2>
             </div>
 
             {/* Buttons */}

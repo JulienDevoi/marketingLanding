@@ -23,7 +23,7 @@ export default function Section02() {
 
                 {/* Copy */}
                 <h2 className="h2 text-white mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-2]" data-aos-delay="100">
-                  International payments shouldn't be this complicated
+                  International payments shouldn't be complicated
                 </h2>
                 <ul className="text-lg text-slate-400 mb-8 space-y-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-2]" data-aos-delay="200">
                   <li className="flex items-center">

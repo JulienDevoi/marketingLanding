@@ -47,10 +47,13 @@ export default function Section06() {
               <div className="w-[512px] max-w-full shrink-0 md:order-1">
                 {/* Copy */}
                 <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="100">
-                  Why choose us for cross-border payments?
+                  Don't just take our word for it
                 </h2>
                 <p className="text-lg text-slate-500 mb-6" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="200">
-                  Our solution is used by 150+ leading finance teams to simplify international payments.
+                  Our solution is used by 250+ leading finance teams to simplify international payments.
+                </p>
+                <p className="text-lg text-slate-500 mb-6 font-medium" data-aos="fade-up" data-aos-anchor="[data-aos-id-6]" data-aos-delay="200">
+                  They stayed for:
                 </p>
                 <ul
                   className="inline-flex flex-col text-slate-500 space-y-2.5"
@@ -76,7 +79,7 @@ export default function Section06() {
                         d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z"
                       />
                     </svg>
-                    <span>Cost</span>
+                    <span>Cost efficiency</span>
                   </li>
                   <li className="flex items-center">
                     <svg className="shrink-0 mr-3" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
@@ -116,11 +119,11 @@ export default function Section06() {
                           <Image src={Testimonial03} className="md:max-w-none" width={384} height={180} alt="Testiomonial 01" />
                         </div>
                         <div className="grow flex flex-col relative bg-linear-to-t from-slate-800 to-slate-700 p-6 pt-14">
-                          <Image
+                          {/*<Image
                             className="absolute bottom-full translate-y-1/2"
-                            src={TestimonialSign01}
+                             src={TestimonialSign01}
                             alt="Testiomonial sign 01"
-                          />
+                          />*/}
                           <p className="grow font-medium text-slate-200 mb-4">
                             “ Request Finance makes it easy for our accountants to manage our crypto payments, and simplifies payroll in crypto for our global team with thoughtful features like the ability to pay multiple crypto invoices at once, or schedule invoices.                            ”
                           </p>

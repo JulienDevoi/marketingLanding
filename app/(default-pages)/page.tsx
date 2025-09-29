@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - FinTech',
-  description: 'Page description',
+  title: 'Cross-border payments made simple',
+  description: 'All-in-one platform to send and receive funds internationally with confidence.',
 }
 
 import Hero from '@/components/hero'

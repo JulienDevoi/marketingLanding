@@ -33,9 +33,9 @@ export default function Section01() {
                   </g>
                 </svg>
               </div>
-              <h4 className="text-xl font-bold mb-1">Set up your payment(s)</h4>
+              <h4 className="text-xl font-bold mb-1">No hidden fees</h4>
               <p className="text-slate-500">
-                Create your payment batch or individual payments in one click.
+                Keep more of your money with transparent, low fees.
               </p>
             </div>
 
@@ -67,9 +67,9 @@ export default function Section01() {
                   </g>
                 </svg>
               </div>
-              <h4 className="text-xl font-bold mb-1">Track live payment status</h4>
+              <h4 className="text-xl font-bold mb-1">Received in minutes</h4>
               <p className="text-slate-500">
-                Follow in real-time the status of your payment(s).
+                No more long delays. Once setup, the funds land in your account in just minutes.
               </p>
             </div>
 
@@ -100,9 +100,9 @@ export default function Section01() {
                   </g>
                 </svg>
               </div>
-              <h4 className="text-xl font-bold mb-1">Beneficiaries receive funds</h4>
+              <h4 className="text-xl font-bold mb-1">Compliance built in</h4>
               <p className="text-slate-500">
-                It takes a few hours for the funds to be credited to the beneficiary's account.
+              Stay fully aligned with international regulations, no extra effort required.
               </p>
             </div>
           </div>

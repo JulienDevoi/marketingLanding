@@ -30,11 +30,11 @@ export default function Hero() {
                     />
                   </svg>
                   payments 
-                </span> {' '}  made easy for your business
+                </span> {' '}  made simple
               </h1>
               <p className="text-lg text-blue-200 mb-8" data-aos="fade-up" data-aos-delay="200">
-                Send funds internationally with confidence.
-                <br className="hidden md:block" /> Avoid costly fees, long delays, and compliance headache.
+                All-in-one platform to send and receive funds internationally with confidence.
+                {/*<br className="hidden md:block" /> Avoid costly fees, long delays, and compliance headache.*/}
               </p>
 
               {/* Buttons */}
@@ -58,7 +58,7 @@ export default function Hero() {
                     className="btn-sm w-full inline-flex items-center text-white bg-linear-to-tr from-blue-400 hover:bg-blue-500 shadow-xs relative before:absolute before:inset-0 before:bg-blue-400/60 before:-z-10 before:rounded-full"
                     href="#how-it-works"
                   >
-                    How it works?
+                    Discover how
                   </Link>
                 </div>
               </div>

@@ -7,7 +7,7 @@ import TestimonialSign01 from '@/public/images/testimonial-sign-01.svg'
 import Testimonial02 from '@/public/images/testimonial-02.jpg'
 import TestimonialSign02 from '@/public/images/testimonial-sign-02.svg'
 import Testimonial03 from '@/public/images/rudy.png'
-import Testimonial04 from '@/public/images/jaime.jpeg'
+import Testimonial04 from '@/public/images/sebastien.jpg'
 
 // Import Swiper
 import Swiper, { Pagination, EffectFade } from 'swiper'
@@ -23,10 +23,14 @@ export default function Section06() {
       slidesPerView: 1,
       watchSlidesProgress: true,
       effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
       pagination: {
         el: '.testimonial-carousel-pagination',
         clickable: true,
       },
+      speed: 300,
     })
   }, [])
 
@@ -145,11 +149,11 @@ export default function Section06() {
                             alt="Testiomonial sign 02"
                           />
                           <p className="grow font-medium text-slate-200 mb-4">
-                            “ The app has essentially eradicated risks associated with human error, such as payments sent to incorrect wallet addresses. Furthermore, it has enhanced our capability to monitor our crypto payroll history, providing improved transparency and oversight.
+                            “ Other solutions we saw didn't have all the functionalities we needed, like batch payments.
                             “
                           </p>
                           <div className="font-medium text-sm text-slate-500">
-                            <span className="text-slate-200">Jaime Barriga</span> - <span className="text-slate-400">CEO & Co-Founder @OpenZeppelin</span>
+                            <span className="text-slate-200">Sebastien Borget</span> - <span className="text-slate-400">COO & Co-Founder @Sandbox</span>
                           </div>
                         </div>
                       </div>

@@ -20,7 +20,7 @@ export default function Hero() {
             <div className="md:w-[600px]">
               {/* Copy */}
               <h1 className="h1 text-white mb-6" data-aos="fade-up" data-aos-delay="100">
-                Cross-border {' '}
+                The {' '}
                 <span className="relative inline-flex items-center justify-center">
                   <svg className="absolute -z-10" width="246" height="76" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -29,11 +29,11 @@ export default function Hero() {
                       fillRule="nonzero"
                     />
                   </svg>
-                  payments 
-                </span> {' '}  made simple
+                  fastest
+                </span> {' '} way to send money across borders 
               </h1>
               <p className="text-lg text-blue-200 mb-8" data-aos="fade-up" data-aos-delay="200">
-                All-in-one platform to send and receive funds internationally with confidence.
+                A fast, simple & transparent solution to send and receive funds internationally with confidence.
                 {/*<br className="hidden md:block" /> Avoid costly fees, long delays, and compliance headache.*/}
               </p>
 

@@ -59,9 +59,9 @@ export default function Section05() {
                   <div className="mb-3">
                     <div className="flex items-center justify-center font-bold text-teal-600 bg-teal-200 h-11 w-11 rounded-full">2</div>
                   </div>
-                  <h4 className="text-white text-xl font-bold mb-1">Track payment status live</h4>
+                  <h4 className="text-white text-xl font-bold mb-1">Beneficiaries receive funds</h4>
                   <p className="text-blue-200">
-                  Follow in real-time the status of your payment(s).
+                  It takes a few minutes for the funds to be credited to the beneficiary's account.
                   </p>
                 </div>
 
@@ -70,9 +70,9 @@ export default function Section05() {
                   <div className="mb-3">
                     <div className="flex items-center justify-center font-bold text-teal-600 bg-teal-200 h-11 w-11 rounded-full">3</div>
                   </div>
-                  <h4 className="text-white text-xl font-bold mb-1">Beneficiaries receive funds</h4>
+                  <h4 className="text-white text-xl font-bold mb-1">Audit ready</h4>
                   <p className="text-blue-200">
-                    It takes a few hours for the funds to be credited to the beneficiary's account.
+                    You're setup for compliance and audit ready.
                   </p>
                 </div>
               </div>

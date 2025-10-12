@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import QuoteAuthor from '@/public/images/pablo.jpeg'
+import DanielQuoteAuthor from '@/public/images/daniel.jpeg'
 import Features from '@/public/images/features-03.png'
 
 export default function Section03() {
@@ -20,7 +21,7 @@ export default function Section03() {
               <div className="w-[512px] max-w-full shrink-0 md:order-1">
                 {/* Copy */}
                 <h2 className="h2 mb-4" data-aos="fade-up" data-aos-anchor="[data-aos-id-3]" data-aos-delay="100">
-                  Powerful cross-border payments built for finance teams
+                  A faster and simpler way to move money globally
                 </h2>
                 <ul className="text-lg text-slate-400 mb-8 space-y-3" data-aos="fade-up" data-aos-anchor="[data-aos-id-2]" data-aos-delay="200">
                   <li className="flex items-center">
@@ -29,7 +30,7 @@ export default function Section03() {
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
                     </div>
-                    <span>Send and receive payments in 50+ fiat and digital currencies</span>
+                    <span>Instant or near-instant settlements, no more waiting days</span>
                   </li>
                   <li className="flex items-center">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mr-3">
@@ -37,7 +38,7 @@ export default function Section03() {
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
                     </div>
-                    <span>Real-time transparent FX conversions with no hidden fees</span>
+                    <span>Low cost, no hidden fees: full transparency upfront</span>
                   </li>
                   <li className="flex items-center">
                     <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mr-3">
@@ -87,6 +88,26 @@ export default function Section03() {
                     <div className="text-sm">
                       <div className="font-medium text-slate-700">Juan Pablo Andersson</div>
                       <div className="text-slate-500">Finance Operations @ The Sandbox</div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Daniel Lustig Quote */}
+                <div className="flex max-w-md mx-auto md:mx-0 text-left mt-8" data-aos="fade-up" data-aos-anchor="[data-aos-id-3]" data-aos-delay="400">
+                  <Image
+                    className="rounded-full self-start shrink-0 mr-3"
+                    src={DanielQuoteAuthor}
+                    width={32}
+                    height={32}
+                    alt="Daniel Lustig"
+                  />
+                  <div>
+                    <blockquote className="text-slate-500 m-0 mb-3">
+                      " We love using Request because it just makes the whole payment process more efficient for all the parties involved while ensuring the accounting compliance set by our auditors. "
+                    </blockquote>
+                    <div className="text-sm">
+                      <div className="font-medium text-slate-700">Daniel Lustig</div>
+                      <div className="text-slate-500">Founding Member @ Ocean Protocol</div>
                     </div>
                   </div>
                 </div>

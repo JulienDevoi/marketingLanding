@@ -114,7 +114,7 @@ export default function Apply() {
               <div className="lg:flex lg:space-x-12 xl:space-x-16">
                 {/* Left side */}
                 <div className="grow lg:mt-16 mb-16 lg:mb-0 text-center lg:text-left">
-                  <h1 className="h2 mb-8">Simplifying global payments for modern businesses</h1>
+                  <h1 className="h2 mb-8">Be the first to try the new standard in cross-border payments</h1>
 
                   <div className="mb-12">
                     <ul className="inline-flex flex-col text-slate-500 space-y-2.5">
@@ -126,7 +126,7 @@ export default function Apply() {
                             d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z"
                           />
                         </svg>
-                        <span>No hidden fees, ever</span>
+                        <span>Payments without delays</span>
                       </li>
                       <li className="flex items-center text-left">
                         <svg className="shrink-0 mr-3" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
@@ -136,7 +136,7 @@ export default function Apply() {
                             d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z"
                           />
                         </svg>
-                        <span>Payments without delays</span>
+                        <span>No hidden fees, ever</span>
                       </li>
                       <li className="flex items-center text-left">
                         <svg className="shrink-0 mr-3" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
@@ -156,7 +156,7 @@ export default function Apply() {
                             d="M15.335 7.933 14.87 7c-4.025 1.167-6.067 3.733-6.067 3.733l-1.867-1.4-.933.934L8.802 14c2.158-4.025 6.533-6.067 6.533-6.067Z"
                           />
                         </svg>
-                        <span>Real-time FX rates & live status tracking</span>
+                        <span>Built for global operations</span>
                       </li>
                     </ul>
                   </div>
@@ -211,7 +211,7 @@ export default function Apply() {
                     <div className="w-full max-w-[480px] mx-auto lg:w-[480px] lg:max-w-none lg:mx-0 xl:w-[512px] bg-white p-6 shadow-2xl">
                       {/* Form */}
                       <form ref={formRef} onSubmit={handleSubmit}>
-                        <h3 className="text-2xl font-bold text-slate-800 mb-6 text-left">Join the waiting list now</h3>
+                        <h3 className="text-2xl font-bold text-slate-800 mb-6 text-left">Receive your invite now</h3>
                         {isSubmitted && (
                           <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
                             Thank you! You've been successfully added to our waiting list.
@@ -280,9 +280,9 @@ export default function Apply() {
                           <button 
                             type="submit" 
                             disabled={isSubmitting}
-                            className="btn-sm inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed group shadow-xs"
+                            className="btn-sm inline-flex items-center text-blue-50 bg-blue-500 hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer group shadow-xs"
                           >
-                            {isSubmitting ? 'Submitting...' : 'Submit the form'}
+                            {isSubmitting ? 'Submitting...' : 'Receive my invite'}
                           </button>
                         </div>
                       </form>

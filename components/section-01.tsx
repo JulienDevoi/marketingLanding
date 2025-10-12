@@ -33,9 +33,9 @@ export default function Section01() {
                   </g>
                 </svg>
               </div>
-              <h4 className="text-xl font-bold mb-1">No hidden fees</h4>
+              <h4 className="text-xl font-bold mb-1">Avoid long delays</h4>
               <p className="text-slate-500">
-                Keep more of your money with transparent, low fees.
+              The funds land in your account in minutes.
               </p>
             </div>
 
@@ -67,9 +67,9 @@ export default function Section01() {
                   </g>
                 </svg>
               </div>
-              <h4 className="text-xl font-bold mb-1">Received in minutes</h4>
+              <h4 className="text-xl font-bold mb-1">No hidden fees</h4>
               <p className="text-slate-500">
-                No more long delays. Once setup, the funds land in your account in just minutes.
+                Keep more of your money with transparent, low fees.
               </p>
             </div>
 
